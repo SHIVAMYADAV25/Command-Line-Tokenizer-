@@ -23,6 +23,10 @@ It is designed as an **educational tool** — not a production-grade tokenizer �
 
 ## ⚡ Quick start (local)
 
+![Build Vocab](screenshots/build-vocab.png)
+![Encode](screenshots/encode.png)
+![Decode](screenshots/decode.png)
+
 ```bash
 # 1. Extract the zip (if applicable) or clone the repo
 # 2. Make the CLI executable (optional on Windows)
@@ -30,15 +34,14 @@ chmod +x cli.js
 
 # 3. Train (creates vocab.json)
 node cli.js train corpus.txt vocab.json --minfreq=2 --ops=2000
-![Build Vocab](screenshots/build-vocab.png)
 
 # 4. Encode
 node cli.js encode vocab.json "Hello world!"
-![Encode](screenshots/encode.png)
+
 
 # 5. Tokenize (see subword pieces)
 node cli.js tokenize vocab.json "Hello world!"
 
 # 6. Decode (example: replace <ids> with output from encode)
 node cli.js decode vocab.json <ids>
-![Decode](screenshots/decode.png)
+
