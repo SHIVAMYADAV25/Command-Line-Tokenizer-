@@ -24,8 +24,8 @@ It is designed as an **educational tool** — not a production-grade tokenizer �
 ## ⚡ Quick start (local)
 
 ![Build Vocab](screenshots/build-vocab.png)
-![Encode](screenshots/encode.png)
-![Decode](screenshots/decode.png)
+![Encode](screenshots/Encode.png)
+![Decode](screenshots/Decode.png)
 
 ```bash
 # 1. Extract the zip (if applicable) or clone the repo
