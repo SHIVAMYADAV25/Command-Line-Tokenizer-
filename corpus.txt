@@ -1,0 +1,4 @@
+Hello, world! This is a tiny BPE tokenizer demo.
+This demo demonstrates training, encoding, tokenization, and decoding.
+Byte Pair Encoding will merge common character sequences into subwords.
+Hello again, this is the tokenizer speaking.
